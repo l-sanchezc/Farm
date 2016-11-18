@@ -21,6 +21,8 @@
 		599D2E1F182D061B006558FA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 599D2E01182D061B006558FA /* UIKit.framework */; };
 		599D2E27182D061B006558FA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 599D2E25182D061B006558FA /* InfoPlist.strings */; };
 		599D2E29182D061B006558FA /* FarmTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 599D2E28182D061B006558FA /* FarmTests.m */; };
+		599D2E34182D0668006558FA /* GHPView.m in Sources */ = {isa = PBXBuildFile; fileRef = 599D2E33182D0668006558FA /* GHPView.m */; };
+		59E76DDC182D0BF30040863A /* huevo-roto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59E76DDB182D0BF30040863A /* huevo-roto.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		599D2E24182D061B006558FA /* FarmTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FarmTests-Info.plist"; sourceTree = "<group>"; };
 		599D2E26182D061B006558FA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		599D2E28182D061B006558FA /* FarmTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FarmTests.m; sourceTree = "<group>"; };
+		599D2E32182D0668006558FA /* GHPView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHPView.h; sourceTree = "<group>"; };
+		599D2E33182D0668006558FA /* GHPView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHPView.m; sourceTree = "<group>"; };
+		59E76DDB182D0BF30040863A /* huevo-roto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "huevo-roto.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +122,9 @@
 				599D2E0F182D061B006558FA /* Main.storyboard */,
 				599D2E12182D061B006558FA /* FarmViewController.h */,
 				599D2E13182D061B006558FA /* FarmViewController.m */,
+				599D2E32182D0668006558FA /* GHPView.h */,
+				599D2E33182D0668006558FA /* GHPView.m */,
+				59E76DDB182D0BF30040863A /* huevo-roto.jpg */,
 				599D2E15182D061B006558FA /* Images.xcassets */,
 				599D2E04182D061B006558FA /* Supporting Files */,
 			);
@@ -230,6 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				599D2E16182D061B006558FA /* Images.xcassets in Resources */,
+				59E76DDC182D0BF30040863A /* huevo-roto.jpg in Resources */,
 				599D2E08182D061B006558FA /* InfoPlist.strings in Resources */,
 				599D2E11182D061B006558FA /* Main.storyboard in Resources */,
 			);
@@ -252,6 +261,7 @@
 			files = (
 				599D2E14182D061B006558FA /* FarmViewController.m in Sources */,
 				599D2E0E182D061B006558FA /* FarmAppDelegate.m in Sources */,
+				599D2E34182D0668006558FA /* GHPView.m in Sources */,
 				599D2E0A182D061B006558FA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -461,6 +471,7 @@
 				599D2E2E182D061B006558FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		599D2E2F182D061B006558FA /* Build configuration list for PBXNativeTarget "FarmTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +480,7 @@
 				599D2E31182D061B006558FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
